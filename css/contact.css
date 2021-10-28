@@ -1,0 +1,162 @@
+.box{
+	position: relative;
+    font-family: Helvetica;
+}
+
+@media(max-width: 600px){
+	.banner-margin{
+		margin-top: 16px;
+	}
+}
+
+
+@media(max-width: 600px){
+	.desk-banner{
+		display: none!important;
+	}
+}
+
+.mob-banner{
+	display: none;
+}
+
+
+
+@media(max-width: 600px){
+	.mob-banner{
+		display: block!important;
+	}
+}
+
+
+.img-title{
+	position: absolute;
+    color: #fff;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 45%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+
+
+@media(max-width: 600px){
+	.img-title{
+		    text-align: center;
+    		margin-right: 0;
+	}
+}
+
+.contactline{
+	font-size: 80px;
+	font-family: sans-serif;
+}
+
+@media(max-width: 600px){
+	.contactline{
+		font-size: 45px;
+	}
+}
+.contactus{
+	    padding-right: 70px;
+	    padding-left: 70px;
+}
+.contact{
+	padding: 3%;
+}
+
+.h4{
+	margin-bottom: 0.5rem;
+    font-weight:normal;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+.form-group{
+	margin-bottom: 1rem;
+
+}
+
+.contactus2{
+	padding: 3%;
+}
+
+.p{
+
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.p:hover a{
+	text-decoration: underline;
+	color: red;
+}
+
+.footer{
+   background: #020306f0;
+    padding: 50px;
+    color: #fff;
+}
+.why1{
+ 
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.m2{
+      display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px
+
+}
+
+.img2{
+  margin-left: 50px;
+  margin-top:30px; 
+  width: 50%;
+}
+
+.m3{
+    font-family: prague;
+    font-size: 39px;
+    line-height: 50px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.footer p{
+  color: #fff;
+  font-size: 18px;
+  line-height: 20px;
+      margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+@media (min-width: 768px)
+{
+  .a1{
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+}
+@media (min-width: 576px) 
+{
+    .a1{flex: 0 0 41.666667%;
+    max-width: 41.666667%;}
+
+.foot-add{
+  padding: 15px;
+}
+
+@media (min-width: 768px)
+{.foot-add{
+    flex: 0 0 50%;
+    max-width: 50%;
+    }
+  }

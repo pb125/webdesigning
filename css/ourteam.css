@@ -1,0 +1,169 @@
+*{
+	font-family: Montserrat,sans-serif;
+	margin:0px;
+	padding:0px;
+}
+.box{
+	position: relative;
+    font-family: Helvetica;
+}
+
+
+@media(max-width: 600px){
+	.banner-margin{
+		margin-top: 16px;
+	}
+}
+
+
+@media(max-width: 600px){
+	.desk-banner{
+		display: none!important;
+	}
+}
+
+.mob-banner{
+	display: none;
+}
+
+
+
+@media(max-width: 600px){
+	.mob-banner{
+		display: block!important;
+	}
+}
+
+
+.img-title{
+	position: absolute;
+    color: #fff;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 45%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+
+
+@media(max-width: 600px){
+	.img-title{
+		    text-align: center;
+    		margin-right: 0;
+	}
+}
+
+
+.brandsline{
+	font-size: 80px;
+	font-family: sans-serif;
+}
+@media(max-width: 600px){
+	.brandsline{
+		font-size: 50px;
+	}
+}
+
+.priyank{
+	margin-left: 50px;
+	margin-top: 40px;
+}
+
+@media(max-width: 600px){
+	.priyank{
+		margin-left: 0;
+		margin-top: 0;
+	}
+}
+
+.meet-the-team{
+	margin: 0;
+	
+}
+
+.meet-the-team2{
+	padding-top: 8%;
+    padding-left: 3%;
+    font-family: Raleway,sans-serif;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.intro{padding-top: 2%;
+    padding-left: 3%;
+	font-weight: normal;
+	font-size: 17px;}
+
+.meet-the-team1{
+	padding-top: 2%;
+    padding-left: 3%;
+	padding-top: 0% !important;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-align: justify;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: normal;
+    
+}
+
+.box1{
+	text-align: center;
+    color: #fff;
+    position: relative;
+    margin-top: 20px;
+}
+
+
+.title{
+	font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    margin-left: 140px;
+
+}
+
+.box-content{
+	padding: 20px;
+    margin-bottom: 20px;
+    bottom: 0;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    margin-top: -90px;
+    margin-left: 70px;
+    letter-spacing: 1px;
+    font-size: 20px;
+
+}
+
+.post{
+	display: block;
+    padding: 3px 0;
+    font-size: 15px;
+}
+@media(max-width: 600px){
+	.img{
+		margin-left: 0;
+		margin-top: 0;
+	}
+}
+
+@media(max-width: 600px){
+	.box-content{
+		margin-left: 0;
+		
+	}
+}
+
+.img1{
+	width: 92%;
+    height: auto;
+    margin-left: 20px;
+}
